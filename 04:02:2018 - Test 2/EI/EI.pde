@@ -1,4 +1,6 @@
 import org.openkinect.processing.*;
+ import processing.sound.*;
+SoundFile file;
 
 
 // The kinect stuff is happening in another class
@@ -16,6 +18,9 @@ void setup() {
   //fullScreen(FX2D);
   //fullScreen(P3D);
   size(1024, 848);
+  
+  file = new SoundFile(this, "audio.mp3");
+  file.loop();
   
   noCursor();
   scaleValue = width/512 ;
