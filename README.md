@@ -1,4 +1,3 @@
 # Playful-Communication-Serious-Research
 
-
-This Github repository is used for the final project of the Playful Communication and Serious Research course.
+A final project for Brett Peterson's Playful Communication and Serious Research course. Final version 
